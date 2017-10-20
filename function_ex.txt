@@ -1,0 +1,17 @@
+function createTable(){
+       var table = document.createElement("table");
+       var tbody = document.createElement("tbody");
+       table.setAttribute("align","center");
+       table.style.width="100%";
+       table.appendChild(tbody);
+       for (var i=0; i<5; i++){
+           var row = document.createElement("tr");
+           for (var j=0; j<4; j++){
+               var col = document.createElement("td");
+               col.innerText = "This is row "+(i+1)+" col "+(j+1)+"";
+               row.appendChild(col);
+           }
+           tbody.appendChild(row);
+       }
+       document.body.appendChild(table);
+}

@@ -1,0 +1,14 @@
+* {
+    border: 1px solid red;
+}
+.navbar-nav>li>a {
+	color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.nav {
+	width: 80%;
+}
+.list-group {
+	margin-top: 40px;
+}
